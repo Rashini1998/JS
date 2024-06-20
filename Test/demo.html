@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Bulb</h2>
+    <p id="demo">JS can change HTML content</p>
+    <button
+      type="button"
+      onclick='document.getElementById("demo").innerHTML = "Hello People!"'
+    >
+      Click Here
+    </button>
+    <button
+      id="on"
+      style="width: 150px; height: 50px"
+      onclick="document.getElementById('img').src ='on.jpg'"
+    >
+      Turn On
+    </button>
+    <img src="off.jpg" style="height: 300px" id="img" />
+    <button
+      id="on"
+      style="width: 150px; height: 50px"
+      onclick="document.getElementById('img').src='off.jpg'"
+    >
+      Turn Off
+    </button>
+    <button onclick="document.getElementById('name').style.fontSize='50px'">
+      Increase
+    </button>
+    <button onclick="document.getElementById('name').style.fontSize='10px'">
+      Decrease
+    </button>
+    <p id="name" style="font-size: 20px">Rashini Gamalath</p>
+    <button onclick="document.getElementById('hi').style.display='none'">
+      Click Me
+    </button>
+    <p id="hi">Hiiiiiiiiiiiiiiiiiiiii</p>
+  </body>
+</html>
